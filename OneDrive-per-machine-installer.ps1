@@ -1,7 +1,7 @@
 <#
 .SYNOPSIS
     Installation OneDrive Per-Machine install
-	Mark Messink 13-10-2020
+	Mark Messink 02-12-2020
 	Info: https://docs.microsoft.com/en-us/onedrive/per-machine-installation
 
 .DESCRIPTION
@@ -10,7 +10,7 @@
   None
 
 .OUTPUTS
-  Log file: ilog_OneDrive-per-machine.txt
+  Log file: inlog_OneDrive-per-machine.txt
   
 .NOTES
   
@@ -26,7 +26,7 @@ If(!(test-path $logpath))
       New-Item -ItemType Directory -Force -Path $logpath
 }
 
-$logFile = "$logpath\ilog_OneDrive_per-machine.txt"
+$logFile = "$logpath\inlog_OneDrive_per-machine.txt"
 
 #Start logging
 Start-Transcript $logFile -Append -Force
