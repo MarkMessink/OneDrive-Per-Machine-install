@@ -1,7 +1,7 @@
 <#
 .SYNOPSIS
     Installation OneDrive Per-Machine install
-	Mark Messink 02-12-2020
+	Mark Messink 17-05-2021
 	Info: https://docs.microsoft.com/en-us/onedrive/per-machine-installation
 
 .DESCRIPTION
@@ -13,6 +13,7 @@
   Log file: inlog_OneDrive-per-machine.txt
   
 .NOTES
+  https://support.microsoft.com/en-us/office/onedrive-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0
   
 .EXAMPLE
   .\OneDrive-per-machine-installer.ps1
